@@ -72,7 +72,7 @@ if __name__ == "__main__":
 	gui.title("GhyoMetros-Calculations")
 
 	# set the configuration of GUI window
-	gui.geometry("400x200")
+	gui.geometry("375x250")
 
 	# StringVar() is the variable class
 	# we create an instance of this class
@@ -160,4 +160,5 @@ if __name__ == "__main__":
 	Decimal.grid(row=6, column=0)
 	# start the GUI
 	gui.mainloop()
+
 
